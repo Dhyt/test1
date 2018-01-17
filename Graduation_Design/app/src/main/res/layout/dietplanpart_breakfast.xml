@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/dietplan_breakfast_ll_demandEnergy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/dietplan_breakfast_tv_demandEnergy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="本餐需能量为0kcal" />
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:id="@+id/dietplan_breakfast_ll_breakfast"
+        android:layout_below="@id/dietplan_breakfast_ll_demandEnergy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/dietplan_breakfast_tv_breakfast_protein"
+            style="@style/dietPlan_tv_breakfast_nutrition_scale"
+            android:text="蛋白质：0g" />
+
+        <TextView
+            android:id="@+id/dietplan_breakfast_tv_breakfast_fat"
+            style="@style/dietPlan_tv_breakfast_nutrition_scale"
+            android:text="脂肪：0g" />
+
+        <TextView
+            android:id="@+id/dietplan_breakfast_tv_breakfast_carbohydrate"
+            style="@style/dietPlan_tv_breakfast_nutrition_scale"
+            android:text="碳水化合物：0g" />
+
+    </LinearLayout>
+
+    <ListView
+
+        android:id="@+id/dietplan_breakfast_lv_breakfast"
+        android:layout_below="@id/dietplan_breakfast_ll_breakfast"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+    <LinearLayout
+
+        android:id="@+id/dietplan_breakfast_ll_breakfast_summary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/dietplan_tv__summary"
+            style="@style/dietPlan_tv_breakfast_nutrition_scale"
+            android:text="汇总:" />
+
+        <TextView
+            android:id="@+id/dietplan_tv_calory_summary"
+            style="@style/dietPlan_tv_breakfast_nutrition_scale"
+            android:text="0kcal" />
+
+        <TextView
+            android:id="@+id/dietplan_tv_protein_summary"
+            style="@style/dietPlan_tv_breakfast_nutrition_scale"
+            android:text="蛋白质：0g" />
+
+        <TextView
+            android:id="@+id/dietplan_tv_fat_summary"
+            style="@style/dietPlan_tv_breakfast_nutrition_scale"
+            android:text="脂肪：0g" />
+
+        <TextView
+            android:id="@+id/dietplan_tv_carbohydrate_summary"
+            style="@style/dietPlan_tv_breakfast_nutrition_scale"
+            android:text="碳水化合物：0g" />
+
+    </LinearLayout>
+
+    <!--<RelativeLayout-->
+
+</RelativeLayout>

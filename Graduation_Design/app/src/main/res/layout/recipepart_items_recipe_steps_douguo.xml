@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="3">
+
+        <ml.amaze.design.receipe.MTextView
+            android:id="@+id/recipe_item_douguo_steps_tv_index"
+            style="@style/items_nutrient"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1" />
+
+        <ml.amaze.design.receipe.MTextView
+            android:id="@+id/recipe_item_douguo_steps_tv_steps"
+            style="@style/items_nutrient"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            android:text="准备材料" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+
+        <ImageView
+            android:id="@+id/recipe_item_douguo_steps_iv"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:paddingTop="15dp"
+           />
+    </LinearLayout>
+
+
+</LinearLayout>

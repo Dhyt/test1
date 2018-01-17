@@ -1,0 +1,49 @@
+{
+  "resultcode": "200",
+  "reason": "Success",
+  "result": {
+    "data": [
+      {
+        "id": "466",
+        "title": "田园小南瓜",
+        "tags": "家常菜;老年人;原味;10-20分钟;蒸;简单;糯米粉;白领;小吃;全菜系;1-2人;锅子;其他味;其他工艺;1小时-2小时",
+        "imtro": "这是一款非常健康，老少皆宜的小吃。糯米、南瓜属温性，而绿豆属凉性，中和在起，吃了不容易上火。为尽量保持食物的原汁原味，从健康着想，面团里没有加糖加油。南瓜本身有甜味，绿豆沙馅也是甜的，自己吃没有必要为了好看弄得过于油腻。如果你有闲情逸致，不防做上点送给节日里的老人们，我想他们一定会陶醉于眼前的儿女情长里！",
+        "ingredients": "南瓜泥,200g",
+        "burden": "糯米粉,200g;澄粉,50g;菜汁面团,少许;绿豆沙,150g",
+        "albums": [
+          "http:\/\/juheimg.oss-cn-hangzhou.aliyuncs.com\/cookbook\/t\/1\/466_347616.jpg"
+        ],
+        "steps": [
+          {
+            "img": "http:\/\/juheimg.oss-cn-hangzhou.aliyuncs.com\/cookbook\/s\/5\/466_98572e896aad8869.jpg",
+            "step": "1.南瓜去皮、去籽、洗净切成块，用微波炉高火8分钟，绞成泥状。绿色菜叶用刀切碎，再用纱布包好挤出汁来。澄粉就是小麦淀粉，超市有售；"
+          },
+          {
+            "img": "http:\/\/juheimg.oss-cn-hangzhou.aliyuncs.com\/cookbook\/s\/5\/466_3345b796fc0f2d2f.jpg",
+            "step": "2.南瓜泥趁热加入糯米粉、澄粉搅拌均匀；"
+          },
+          {
+            "img": "http:\/\/juheimg.oss-cn-hangzhou.aliyuncs.com\/cookbook\/s\/5\/466_2490d80ae8c051f4.jpg",
+            "step": "3.揉成面团，用保鲜膜包好饧一会；"
+          },
+          {
+            "img": "http:\/\/juheimg.oss-cn-hangzhou.aliyuncs.com\/cookbook\/s\/5\/466_7a0bc76bf038d043.jpg",
+            "step": "4.将面团搓条，用刀切成20或30克一个的剂子；"
+          },
+          {
+            "img": "http:\/\/juheimg.oss-cn-hangzhou.aliyuncs.com\/cookbook\/s\/5\/466_701037a21167a75d.jpg",
+            "step": "5.将剂子用手掐成饼状，包入绿豆沙，馅料随意；"
+          },
+          {
+            "img": "http:\/\/juheimg.oss-cn-hangzhou.aliyuncs.com\/cookbook\/s\/5\/466_39c8e0a1b623652f.jpg",
+            "step": "6.用手轻轻搓成扁球状，然后用刀背轻轻压出六道南瓜纹，在顶部取一点绿色面团做为瓜蒂。锅里放水烧开中火上笼蒸7分钟即可。"
+          }
+        ]
+      }
+    ],
+    "totalNum": 1,
+    "pn": 0,
+    "rn": 1
+  },
+  "error_code": 0
+}

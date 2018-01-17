@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/nutrient_item_tv_content"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_weight="3"
+        android:paddingTop="15dp"
+        android:textColor="@color/black"
+
+        android:text="content:" />
+
+    <TextView
+        android:id="@+id/nutrient_item_tv_contentNum"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_weight="3"
+        android:paddingTop="15dp"
+        android:textColor="@color/black"
+
+        android:text="0.0" />
+
+    <TextView
+        android:id="@+id/nutrient_item_tv_lights"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:textSize="20sp"
+
+        android:textColor="@color/black"
+        android:background="@drawable/wenhao"
+
+        />
+</LinearLayout>

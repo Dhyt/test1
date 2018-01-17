@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--顶栏日需能量-->
+    <LinearLayout
+        android:id="@+id/dietplan_ll_demandEnergy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/dietplan_tv_demandEnergy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="日需能量为0kcal" />
+    </LinearLayout>
+
+    <!--三餐及营养素布局-->
+    <LinearLayout
+        android:id="@+id/dietplan_ll_deal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/dietplan_ll_demandEnergy"
+        android:background="@android:color/background_light"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+        <!--三餐及汇总按钮-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/dietplan_tv_breakfast_click"
+                style="@style/dietPlan_tv_energy_scale"
+                android:text="早餐\n30%" />
+
+            <TextView
+                android:id="@+id/dietplan_tv_lunch_click"
+                style="@style/dietPlan_tv_energy_scale"
+                android:paddingTop="15dp"
+                android:text="午餐\n40%" />
+
+            <TextView
+                android:id="@+id/dietplan_tv_supper_click"
+                style="@style/dietPlan_tv_energy_scale"
+                android:paddingTop="15dp"
+                android:text="晚餐\n30%" />
+
+            <TextView
+                android:id="@+id/dietplan_tv_summary"
+                style="@style/dietPlan_tv_energy_scale"
+                android:paddingTop="15dp"
+                android:text="摄入量\n判读" />
+        </LinearLayout>
+
+        <!--具体营养素分布-->
+        <LinearLayout
+            android:id="@+id/dietplan_ll_mian"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/dietplan_ll_breakfast"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3">
+
+                    <TextView
+                        android:id="@+id/dietplan_tv_breakfast_calory"
+                        style="@style/dietPlan_tv_nutrition_scale"
+                        android:layout_centerHorizontal="true"
+                        android:text="0kcal" />
+
+                    <TextView
+                        android:id="@+id/dietplan_tv_breakfast_fat"
+                        style="@style/dietPlan_tv_nutrition_scale"
+                        android:layout_below="@id/dietplan_tv_breakfast_calory"
+                        android:layout_centerHorizontal="true"
+                        android:text="脂肪：7g" />
+
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3">
+
+
+                    <TextView
+                        android:id="@+id/dietplan_tv_breakfast_protein"
+                        style="@style/dietPlan_tv_nutrition_scale"
+
+                        android:layout_centerHorizontal="true"
+                        android:text="蛋白质：12g" />
+
+                    <TextView
+                        android:id="@+id/dietplan_tv_breakfast_carbohydrate"
+                        style="@style/dietPlan_tv_nutrition_scale"
+
+                        android:layout_below="@id/dietplan_tv_breakfast_protein"
+                        android:layout_centerHorizontal="true"
+                        android:text="碳水化合物：8g" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+[
+
+            <LinearLayout
+                android:id="@+id/dietplan_ll_lunch"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2">
+
+                    <TextView
+                        android:id="@+id/dietplan_tv_lunch_calory"
+                        style="@style/dietPlan_tv_nutrition_scale"
+                        android:layout_centerHorizontal="true"
+                        android:text="10kcal" />
+
+
+                    <TextView
+                        android:id="@+id/dietplan_tv_lunch_fat"
+                        style="@style/dietPlan_tv_nutrition_scale"
+                        android:layout_below="@id/dietplan_tv_lunch_calory"
+                        android:layout_centerHorizontal="true"
+                        android:text="脂肪：17g" />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2">
+
+
+                    <TextView
+                        android:id="@+id/dietplan_tv_lunch_protein"
+                        style="@style/dietPlan_tv_nutrition_scale"
+
+                        android:layout_centerHorizontal="true"
+                        android:text="蛋白质：112g" />
+
+                    <TextView
+                        android:id="@+id/dietplan_tv_lunch_carbohydrate"
+                        style="@style/dietPlan_tv_nutrition_scale"
+
+                        android:layout_below="@id/dietplan_tv_lunch_protein"
+                        android:layout_centerHorizontal="true"
+                        android:text="碳水化合物：18g" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/dietplan_ll_supper"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2">
+
+                    <TextView
+                        android:id="@+id/dietplan_tv_supper_calory"
+                        style="@style/dietPlan_tv_nutrition_scale"
+                        android:layout_centerHorizontal="true"
+                        android:text="10kcal" />
+
+                    <TextView
+                        android:id="@+id/dietplan_tv_supper_fat"
+                        style="@style/dietPlan_tv_nutrition_scale"
+                        android:layout_below="@id/dietplan_tv_supper_calory"
+
+                        android:layout_centerHorizontal="true"
+                        android:text="脂肪：17g" />
+
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2">
+
+
+                    <TextView
+                        android:id="@+id/dietplan_tv_supper_protein"
+                        style="@style/dietPlan_tv_nutrition_scale"
+                        android:layout_centerHorizontal="true"
+                        android:text="蛋白质：112g" />
+
+                    <TextView
+                        android:id="@+id/dietplan_tv_supper_carbohydrate"
+                        style="@style/dietPlan_tv_nutrition_scale"
+
+                        android:layout_below="@id/dietplan_tv_supper_protein"
+                        android:layout_centerHorizontal="true"
+                        android:text="碳水化合物：18g" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/dietplan_ll_summary"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/userInfo_tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="姓名:XXX" />
+
+    <ImageView
+        android:id="@+id/userInfo_iv_picture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/userInfo_tv_name"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/userInfo_tv_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/userInfo_tv_name"
+        android:text="年龄:XXX" />
+
+    <TextView
+        android:id="@+id/userInfo_tv_height"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/userInfo_tv_age"
+        android:text="身高:XXX" />
+
+    <TextView
+        android:id="@+id/userInfo_tv_weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/userInfo_tv_height"
+        android:text="体重:XXX" />
+
+    <TextView
+        android:id="@+id/userInfo_tv_waistline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/userInfo_tv_weight"
+        android:text="腰围:XXX" />
+
+    <TextView
+        android:id="@+id/userInfo_tv_worklevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/userInfo_tv_waistline"
+        android:text="体力活动等级:XXX" />
+
+    <TextView
+        android:id="@+id/userInfo_tv_sleepTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/userInfo_tv_worklevel"
+        android:text="休息时间:XXX" />
+
+    <TextView
+        android:id="@+id/userInfo_tv_BM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/userInfo_tv_sleepTime"
+        android:text="基础代谢:BM" />
+
+
+
+    <TextView
+        android:id="@+id/userInfo_tv_BMR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/userInfo_tv_BM"
+        android:text="基础代谢率:BMR" />
+
+    <TextView
+        android:id="@+id/userInfo_tv_BMI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/userInfo_tv_BFR"
+        android:text="体质指数:BMI" />
+
+    <TextView
+        android:id="@+id/userInfo_tv_BFR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/userInfo_tv_BMR"
+        android:text="体脂率:BFR" />
+
+
+
+    <TextView
+        android:id="@+id/userInfo_tv_demandEnergy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/userInfo_tv_BMI"
+        android:text="日需能量:demandEnergy" />
+
+
+    <Button
+        android:id="@+id/userInfo_btn_reRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="重新注册"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true" />
+</RelativeLayout>

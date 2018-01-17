@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="文章">
+            <menu>
+                <item
+                    android:id="@+id/disease"
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="常见营养病" />
+                <item
+                    android:id="@+id/nutrients_introduce"
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="营养素介绍" />
+                <item
+                    android:id="@+id/suggest_eat"
+                    android:icon="@drawable/ic_menu_camera"
+                    android:title="营养素推荐摄入量" />
+                <item
+                    android:id="@+id/push"
+                    android:icon="@drawable/ic_menu_camera"
+                    android:title="每日推送" />
+            </menu>
+        </item>
+
+        <!--<item android:title="运动">-->
+            <!--<menu>-->
+                <!--<item-->
+                    <!--android:id="@+id/today_steps"-->
+                    <!--android:icon="@drawable/ic_menu_slideshow"-->
+                    <!--android:title="今日步数" />-->
+                <!--<item-->
+                    <!--android:id="@+id/steps_history"-->
+                    <!--android:icon="@drawable/ic_menu_manage"-->
+                    <!--android:title="我的运动" />-->
+            <!--</menu>-->
+        <!--</item>-->
+
+        <!--<item android:title="个人设置">-->
+        <!--<menu>-->
+            <!--<item-->
+                <!--android:id="@+id/setting"-->
+                <!--android:icon="@drawable/ic_menu_send"-->
+                <!--android:title="我的信息" />-->
+        <!--</menu>-->
+        <!--</item>-->
+    </group>
+
+
+</menu>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">AN APPLE</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_search">search</string>
+    <string name="action_search_hint">请输入菜名</string>
+    <string name="clear_search">ClearSearch</string>
+
+    <string name="cm"> 厘米</string>
+    <string name="kg"> 公斤</string>
+    <string name="weight">今日体重</string>
+    <string name="height">身高</string>
+
+
+</resources>

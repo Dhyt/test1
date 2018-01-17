@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="请选择身高(cm)"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        />
+
+    <ml.amaze.design.selfview.TapeView
+        android:id="@+id/register_secondpage_tapeview_height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        app:bgColor="@color/blue"
+        app:calibrationLong="50.0dp"
+        app:calibrationShort="35.0dp"
+        app:value="160"
+        app:gapWidth="10dp"
+        app:maxValue="250"
+        app:minValue="50"
+        app:per="1.0"
+        app:perCount="5"
+        app:textSize="20.0sp"
+        app:triangleHeight="23.0dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="请选择体重(kg)"
+        android:paddingTop="35dp"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        />
+    <ml.amaze.design.selfview.TapeView
+        android:id="@+id/register_secondpage_tapeview_weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        app:bgColor="@color/blue"
+        app:calibrationLong="50.0dp"
+        app:calibrationShort="35.0dp"
+        app:gapWidth="10.0dp"
+        app:maxValue="150"
+        app:value="60"
+        app:minValue="25"
+        app:per="1.0"
+        app:perCount="5"
+        app:textSize="20.0sp"
+        app:triangleHeight="23.0dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="请选择腰围(cm)"
+        android:paddingTop="35dp"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        />
+    <ml.amaze.design.selfview.TapeView
+        android:id="@+id/register_secondpage_tapeview_waistline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        app:bgColor="@color/blue"
+        app:calibrationLong="50.0dp"
+        app:calibrationShort="35.0dp"
+        app:gapWidth="10.0dp"
+        app:maxValue="200"
+        app:value="80"
+        app:minValue="40"
+        app:per="1.0"
+        app:perCount="5"
+        app:textSize="20.0sp"
+        app:triangleHeight="23.0dp" />
+    <Button
+        android:id="@+id/register_secondpage_btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="35dp"
+        android:layout_gravity="right"
+        android:text="提交"/>
+</LinearLayout>

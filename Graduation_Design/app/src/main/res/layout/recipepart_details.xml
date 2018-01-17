@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/detail_layout_rl_main"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/detail_layout_rl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/background_light">
+
+        <TextView
+            android:id="@+id/detail_layout_tv_tittle"
+            android:layout_width="wrap_content"
+
+            android:paddingRight="30dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="苹果"
+            android:textColor="#ff0000"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/detail_layout_tv_add"
+            android:layout_alignParentEnd="true"
+            android:gravity="end"
+            android:paddingTop="10dp"
+            android:paddingRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_ea5920"
+            android:textSize="23sp"
+            android:text="+"
+            android:layout_alignParentRight="true" />
+
+        <TextView
+            android:id="@+id/detail_layout_tv_appraise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/detail_layout_tv_tittle"
+            android:text="          猪大排脂肪含量较高，营养价值比不上里脊肉，减肥期间不宜常吃"
+            android:textColor="#52561b"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/detail_layout_tv_health_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/detail_layout_tv_appraise"
+            android:text="健康等级：2"
+            android:textColor="#ff0000"
+            android:textSize="13sp" />
+
+
+        <TextView
+            android:id="@+id/detail_layout_tv_weight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/detail_layout_tv_appraise"
+            android:text="264/100g"
+            android:textColor="#ff0000"
+            android:textSize="13sp" />
+
+        <ImageView
+            android:id="@+id/detail_layout_iv_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/detail_layout_tv_weight"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/ic_launcher"
+            android:contentDescription="TODO" />
+
+
+        <TextView
+            android:id="@+id/detail_layout_tv_nutrient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/detail_layout_iv_image"
+            android:gravity="center_horizontal"
+
+            android:padding="3sp"
+            android:text="查看营养素"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

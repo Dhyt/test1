@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/register_firstpage_et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入姓名" />
+
+    <RadioGroup
+        android:id="@+id/register_firstpage_rg_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="15dp">
+
+        <ImageView
+            android:id="@+id/register_firstpage_rg_gender_boy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/boys" />
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="false"
+            android:text="男"
+
+            />
+        <RadioButton
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+            android:checked="false"
+            android:text="女"
+            />
+        <ImageView
+            android:id="@+id/register_firstpage_rg_gender_girl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/girl" />
+
+
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/register_firstpage_btn_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:text="点击选择年龄" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:paddingTop="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请选择体力活动等级"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:id="@+id/textView2" />
+
+        <TextView
+            android:id="@+id/register_firstpage_tv_example"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignBottom="@+id/textView2"
+            android:layout_alignParentEnd="true"
+
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/wenhao"
+            />
+
+
+    </RelativeLayout>
+    <RadioGroup
+        android:id="@+id/register_firstpage_rg_work_level"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="15dp">
+
+        <RadioButton
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:checked="false"
+            android:text="1"
+
+            />
+
+        <RadioButton
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:checked="false"
+            android:text="2" />
+
+        <RadioButton
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:checked="false"
+            android:text="3" />
+    </RadioGroup>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:text="请选择每日休息时长"
+        android:textColor="@color/black" />
+
+    <ml.amaze.design.selfview.TapeView
+        android:id="@+id/register_firstpage_tapeview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        app:bgColor="@color/blue"
+        app:calibrationLong="50.0dp"
+        app:calibrationShort="35.0dp"
+        app:value="8.0"
+        app:gapWidth="25.0dp"
+        app:maxValue="21"
+        app:minValue="3"
+        app:per="0.5"
+        app:perCount="2"
+        app:textSize="20.0sp"
+        app:triangleHeight="23.0dp" />
+
+    <Button
+        android:id="@+id/register_firstpage_btn_nextpage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="下一页" />
+</LinearLayout>

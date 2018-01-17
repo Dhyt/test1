@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#FFFFFF"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/nutrient_fragment_content"
+            android:paddingLeft="20dp"
+            style="@style/items_nutrient"
+            android:text="营养素"
+            />
+        <TextView
+            android:id="@+id/nutrient_fragment_contentNum"
+            android:layout_alignParentEnd="true"
+            android:paddingEnd="25dp"
+            style="@style/items_nutrient"
+            android:text="每100克"
+            android:layout_alignParentRight="true"
+            android:paddingRight="25dp" />
+        <!--<TextView-->
+            <!--android:id="@+id/nutrient_fragment_lights"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--style="@strecipepart_items_nutrientient"-->
+            <!--android:text="lights"-->
+            <!--/>-->
+    </RelativeLayout>
+<ListView
+    android:id="@+id/nutrient_fragment_lv"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+</ListView>
+</LinearLayout>
